@@ -1,0 +1,59 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vaishali.admin.notetakingapp.UpdateFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/updateheading"
+            android:text="UPDATE YOUR NOTE"
+
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"/>
+        <EditText
+            android:id="@+id/edit_text_title1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+
+            android:hint="@string/enter_title"
+
+            android:singleLine="true"
+            android:textColor="#000000"/>
+
+
+        <EditText
+            android:id="@+id/edit_text_note1"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+
+            android:fadingEdge="vertical"
+            android:gravity="top"
+            android:hint="@string/enter_content"
+            android:inputType="textMultiLine"
+            android:padding="10dp"
+            android:textSize="15dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/savebutton1"
+                android:text="UPDATE"/>/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

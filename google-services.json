@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "336701591329",
+    "project_id": "notetakingapp-1362"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:336701591329:android:3b567dd9b4979b71",
+        "android_client_info": {
+          "package_name": "com.vaishali.admin.notetakingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "336701591329-a5jijqqihch2dnkn9o0bg8jkkqoed940.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vaishali.admin.notetakingapp",
+            "certificate_hash": "23A18AA735E074041087377077108B52DF301D85"
+          }
+        },
+        {
+          "client_id": "336701591329-hvtm71qqstgtesmt1cgph8iu1clr3sao.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7KRdhfNeSf1MuPTX2NEaAPmCHeiJg3M8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
